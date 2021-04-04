@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h4,
+h1,
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.container-hero {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.container {
+  left: 50%;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #9c9c9c;
+  padding: 30px 10%;
+}
+
+footer a {
+  transition: all 0.3s ease 0s;
+}
+
+footer a:hover {
+  color: #0088a9;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  border-style: solid;
+}
+
+.youtube-section {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 2vh;
+}
+
+.date-section {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thumbnail {
+  display: table-cell;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.hero {
+  position: relative;
+  height: 92vh;
+  width: 100%;
+  overflow: hidden;
+  background: url(images/shane-rounce-bc0ZslJ5DwY-unsplash-min.png) no-repeat
+    center;
+  background-size: cover;
+}
+
+.music {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #141414;
+}
+
+.socials {
+  background-color: #1b1b1b;
+  height: 92vh;
+}
+
+.container-hero h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-style: italic;
+  color: black;
+  margin-top: 12vh;
+  letter-spacing: 0.3em;
+}
+
+.container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #9c9c9c;
+  margin-top: 7rem;
+  margin-bottom: 9rem;
+  letter-spacing: 0.3em;
+}
+
+.container-hero h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  margin-top: 2rem;
+  letter-spacing: 0.15em;
+  line-height: 1.8rem;
+}
+
+img {
+  width: 496px;
+  height: 279px;
+}
